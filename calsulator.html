@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Calculator</div>
+        <div class="board">
+            <div class="grid-row">
+                <input class="display" onclick="" id="input">
+            </div>
+            <div class="grid-row">
+                <button class="grid-item" onclick="getOperator(this.id)" id="plus">
+                    +
+                </button>
+                <button class="grid-item" onclick="getOperator(this.id)" id="minus">
+                    -
+                </button>
+                <button class="grid-item" onclick="getOperator(this.id)" id="multiply">
+                    *
+                </button>
+                <button class="grid-item" onclick="getOperator(this.id)" id="divide">
+                    /
+                </button>
+            </div>
+            <div class="grid-row">
+                <button class="grid-item" onclick="getNum(this.id)" id="block0">0</button>
+                <button class="grid-item" onclick="getNum(this.id)" id="block1">1</button>
+                <button class="grid-item" onclick="getNum(this.id)" id="block2">2</button>
+                <button class="grid-item" onclick="getNum(this.id)" id="block3">3</button>
+            </div>
+            <div class="grid-row">
+                <button class="grid-item" onclick="getNum(this.id)" id="block4">4</button>
+                <button class="grid-item" onclick="getNum(this.id)" id="block5">5</button>
+                <button class="grid-item" onclick="getNum(this.id)" id="block6">6</button>
+                <button class="grid-item" onclick="getNum(this.id)" id="block7">7</button>
+            </div>
+            <div class="grid-row">
+                <button class="grid-item" onclick="getNum(this.id)" id="block8">8</button>
+                <button class="grid-item" onclick="getNum(this.id)" id="block9">9</button>
+                <button class="grid-item dotBtn" onclick="getNum(this.id)" id="dot">.</button>
+                
+            </div>
+            <div class="grid-row">
+                <button class="grid-item" onclick="initialize()" id="clr">Clear</button>
+                <button class="display ansBtn" onclick="answer()" id="ans">Ans</button>
+            </div>
+        </div>
+        <div class="turn"></div>
+        </div>
+    
+</body>
+<script src="calculator.js"></script>
+</html>
