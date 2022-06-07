@@ -1,10 +1,7 @@
-.header{
-    text-align: center;
-}
 .container{
     border: 1px solid black;
-    width: 300px;
-    height: 600px;
+    width: 200px;
+    height: 400px;
     margin:auto;
     padding: 5px;
     border-radius: 10px;
@@ -15,28 +12,28 @@
 
 
 .dotBtn{
-    width: 100px;
+    width: 85px;
 }
 
 .ansBtn{
-    width: 100px;
+    width:85px;
 }
 
 #input{
-    width: 290px;
-    height: 150px;
+    width: 190px;
+    height: 100px;
+    font-size: 25px;
     padding: 5px;
     border-radius: 10px;
     border: none;
-    background-color: lightgreen;
+    background-color: lightgreen
 }
 
 button{
     margin-left: auto;
     margin-right: auto;
     margin: 3px;
-    text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     border:none;
     border-radius: 10px;
     padding: 10px;
